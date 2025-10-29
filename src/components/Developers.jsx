@@ -1,15 +1,18 @@
 
 
 
-import React from 'react';
+import React, { use } from 'react';
 import Developer from './Developer';
 
-const Developers = ({developers}) => {
+const Developers = ({developersPromise}) => {
+
+    const developer = use(developersPromise);
+    console.log(developer)
     
     return (
         <div>
             {
-                developers.map((developer, index)=> 
+                developer.map((developer, index)=> 
                 <Developer key={index} developer={developer}></Developer>)
             }
         </div>

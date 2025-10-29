@@ -1,0 +1,108 @@
+
+[
+  {
+    "name": "Rahim",
+    "stack": "MERN",
+    "role": "Jr. Software Engineer",
+    "company_name": "BdCalling",
+    "isEmployee": true
+  },
+  {
+    "name": "sajed",
+    "stack": " mern ",
+    "role": "Sr. Molom Specialist",
+    "company_name": "Molom Group Ind. Ltd",
+    "isEmployee": false
+  },
+  {
+    "name": "Shubo",
+    "stack": "backend",
+    "role": "Mid-Level Back-end Developer",
+    "company_name": "abcl it",
+    "isEmployee": true
+  },
+  {
+    "name": "shaneoaj",
+    "stack": "mern Stack",
+    "role": "jr.back",
+    "company_name": " devloper PLC",
+    "isEmployee": false
+  },
+  {
+    "name": "Naeem",
+    "stack": "Next.js",
+    "role": "Frontend Developer",
+    "company_name": "TechNova",
+    "isEmployee": true
+  },
+  {
+    "name": "Sabbir",
+    "stack": "Django",
+    "role": "Backend Engineer",
+    "company_name": "DataBridge Ltd",
+    "isEmployee": true
+  },
+  {
+    "name": "Fahim",
+    "stack": "MEAN",
+    "role": "Full Stack Developer",
+    "company_name": "CodeHaven",
+    "isEmployee": false
+  },
+  {
+    "name": "Raihan",
+    "stack": "Python + Flask",
+    "role": "Software Engineer",
+    "company_name": "AI Systems BD",
+    "isEmployee": true
+  },
+  {
+    "name": "Tamim",
+    "stack": "Spring Boot",
+    "role": "Java Developer",
+    "company_name": "DevVerse",
+    "isEmployee": false
+  },
+  {
+    "name": "Mim",
+    "stack": "React + Node",
+    "role": "Software Engineer Intern",
+    "company_name": "InnovateX",
+    "isEmployee": true
+  },
+  {
+    "name": "Ayman",
+    "stack": "Vue.js + Firebase",
+    "role": "Frontend Engineer",
+    "company_name": "Cloudify",
+    "isEmployee": false
+  },
+  {
+    "name": "Tahsin",
+    "stack": "Express + MongoDB",
+    "role": "Junior Back-end Developer",
+    "company_name": "WebWings",
+    "isEmployee": true
+  },
+  {
+    "name": "Sajid",
+    "stack": "MERN",
+    "role": "Full Stack Developer",
+    "company_name": "SoftWind Ltd",
+    "isEmployee": false
+  },
+  {
+    "name": "Anika",
+    "stack": "React + Redux",
+    "role": "UI Developer",
+    "company_name": "PixelHub",
+    "isEmployee": true
+  },
+  {
+    "name": "Shihab",
+    "stack": "Go + PostgreSQL",
+    "role": "Backend Engineer",
+    "company_name": "GoTech",
+    "isEmployee": false
+  }
+]

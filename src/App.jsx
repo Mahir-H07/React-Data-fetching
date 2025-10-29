@@ -1,45 +1,61 @@
 
 
 
+import { Suspense } from 'react'
 import './App.css'
 import Developer from './components/Developer'
 import Developers from './components/Developers'
 
+ const developerDataFetch= () =>{
+  const data = fetch('developers.json')
+  .then((res) => res.json())
+  
+  return data;
+ }
+
 function App() {
 
-  const developers = [
+  const developersPromise= developerDataFetch();
 
-    {
-     name:"Shuvo",
-     stack:"Mern",
-     role: "jr.software eng",
-     company_name: "bd calling"
-  },
-    {
-     name:"sajed",
-     stack:"mern",
-     role: "jr.fornted dev",
-     company_name: "softknite"
-  },
-    {
-     name:"refat",
-     stack:"mern",
-     role: "backend",
-     company_name: "Knitelife"
-  },
-    {
-     name:"sabbir",
-     stack:" mern",
-     role: "senior.frontend",
-     company_name: "Soft tech"
-  },
-]
+//   const developers = [
+
+//     {
+//      name:"Shuvo",
+//      stack:"Mern",
+//      role: "jr.software eng",
+//      company_name: "bd calling",
+//      isEmployee: true,
+//   },
+//     {
+//      name:"sajed",
+//      stack:"mern",
+//      role: "jr.fornted dev",
+//      company_name: "softknite",
+//      isEmployee: false,
+//   },
+//     {
+//      name:"refat",
+//      stack:"mern",
+//      role: "backend",
+//      company_name: "Knitelife",
+//      isEmployee: true
+//   },
+//     {
+//      name:"sabbir",
+//      stack:" mern",
+//      role: "senior.frontend",
+//      company_name: "Soft tech",
+//      isEmployee: false
+//   },
+// ]
   
 
   return (
     <>
      
-   <Developers developers={developers}></Developers>
+     <Suspense fallback={<p> Loading.....</p>}>
+       <Developers developersPromise={developersPromise}></Developers>
+     </Suspense>
      
       
     </>
