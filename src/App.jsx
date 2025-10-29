@@ -3,6 +3,7 @@
 
 import './App.css'
 import Developer from './components/Developer'
+import Developers from './components/Developers'
 
 function App() {
 
@@ -22,15 +23,15 @@ function App() {
   },
     {
      name:"refat",
-     stack:"laravel",
+     stack:"mern",
      role: "backend",
      company_name: "Knitelife"
   },
     {
      name:"sabbir",
-     stack:"toto stcak",
+     stack:" mern",
      role: "senior.frontend",
-     company_name: "Loge achi dot com"
+     company_name: "Soft tech"
   },
 ]
   
@@ -38,7 +39,7 @@ function App() {
   return (
     <>
      
-      <Developer developers={developers}></Developer>
+   <Developers developers={developers}></Developers>
      
       
     </>
